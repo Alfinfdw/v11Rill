@@ -151,7 +151,7 @@ function clearTmp() {
 
 async function connectionUpdate(update) {
   const { connection, lastDisconnect, isNewLogin } = update
-  if (isNewLogin) conn.isInit = true
+  if (isNewLogin) conn.isInit = false
   const code = lastDisconnect?.error?.output?.statusCode || lastDisconnect?.error?.output?.payload?.statusCode
   if (code && code !== DisconnectReason.loggedOut && conn?.ws.readyState !== CONNECTING) {
     console.log(await global.reloadHandler(true).catch(console.error))
@@ -166,7 +166,7 @@ async function connectionUpdate(update) {
 process.on('uncaughtException', console.error)
 // let strQuot = /(["'])(?:(?=(\\?))\2.)*?\1/
 
-let isInit = true;
+let isInit = false;
 let handler = await import('./handler.js')
 global.reloadHandler = async function (restatConn) {
   try {
@@ -180,7 +180,7 @@ global.reloadHandler = async function (restatConn) {
     try { global.conn.ws.close() } catch { }
     conn.ev.removeAllListeners()
     global.conn = makeWASocket(connectionOptions, { chats: oldChats })
-    isInit = true
+    isInit = false
   }
   if (!isInit) {
     conn.ev.off('messages.upsert', conn.handler)
