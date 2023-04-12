@@ -28,45 +28,45 @@ const readMore = more.repeat(4001)
 
 
 global.owner = [
-['6285710677726', true],
-['6285710677726', 'Neo', true],
-['62895360424437', 'Ozaa', true]
+['447971533162', true],
+['447971533162', 'DivanXd', true],
+['447971533162', 'DivanXd', true]
 ]
 global.mods = []
 global.prems = []
-global.nomorbot = '6281213187664'
-global.nomorown = '62895360424437'
-global.nomorown1 = '62895360424437'
-global.nomorown2 = '6285710677726'
-global.nomorwa = '62895360424437'
+global.nomorbot = '6285608468994'
+global.nomorown = '447971533162'
+global.nomorown1 = '447971533162'
+global.nomorown2 = '447971533162'
+global.nomorwa = '447971533162'
 
 
 global.readMore = readMore
-global.author = 'OzaaꪎꤪNeoꪎツ'
-global.namebot = '​YaeMikoBotz'
-global.wm = '© YaeMiko ꪎꤪ Botzツ'
+global.author = 'DivanXdツ'
+global.namebot = '​DivXdBotz'
+global.wm = '© DivanXd ꪎꤪ Botzツ'
 global.media = 'https://telegra.ph/file/5f99cc5e392a8188fe49a.jpg'
 global.watermark = wm
-global.wm2 = 'YaeMiko'
+global.wm2 = 'DivanXd'
 global.botdate = `Date: ${week} ${date}\nTime: ${wktuwib}`
 global.bottime = `Time: ${wktuwib}`
 global.titlebot = `Yaemiko-Multidevice`
-global.stickpack = 'Yaemiko'
-global.stickauth = `© Yaemiko`
+global.stickpack = 'DivanXd'
+global.stickauth = `© DivanXd`
 global.week = `${week} ${date}`
 global.wibb = `${wktuwib}`
-global.nameown1= 'Ozaa'
-global.nameown2 = 'Neo'
+global.nameown1= 'DivanXd'
+global.nameown2 = 'DivanXd'
 global.Linkgc = 'Bentar'
-global.lynk = 'https://wa.me/62895360424437'
+global.lynk = 'https://wa.me/447971533162'
 //Link Social Media Ganti Aja Kalau Ga Punya Biarin Aja
-global.sig = 'https://www.instagram.com/neohihin21' //instagram
+global.sig = 'https://www.instagram.com/DivanXd' //instagram
 global.sgh = 'https://github.com/neo754' //github
-global.sgc = 'https://chat.whatsapp.com/LI9mjrxzwcQCBE7eSJoEvy' //group whatsapp
+global.sgc = 'https://chat.whatsapp.com/LI9mjrxzwCBE7eSJoEvy' //group whatsapp
 global.sdc = '-' //discord
 global.snh = 'https://www.youtube.com/@NeoZxrl' //youtube
 //Donasi/Payment
-global.pdana = '0857-1067-7726' // dana
+global.pdana = '0856-0846-8994' // dana
 global.povo = '-'
 global.pgopay = '-' // gopay
 global.plinkaja = '-' //link aja
@@ -252,9 +252,9 @@ global.hoppai = ['https://telegra.ph/file/f34d76df4a2065af1a5ba.jpg','https://te
 
 
 global.dtu = 'Official Group'
-global.urlnya = "https://chat.whatsapp.com/LI9mjrxzwcQCBE7eSJoEvy"
+global.urlnya = "https://chat.whatsapp.com/LI9mjwcQCBE7eSJoEvy"
 global.dtc = 'Call Owner'
-global.phn = '0895 3604 24437'
+global.phn = '44797153162'
 
 global.fsizedoc = '999'
 global.fpagedoc = '999'
