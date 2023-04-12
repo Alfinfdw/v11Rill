@@ -151,7 +151,7 @@ function clearTmp() {
 
 async function connectionUpdate(update) {
   const { connection, lastDisconnect, isNewLogin } = update
-  if (isNewLogin) conn.isInit = false
+  if (isNewLogin) conn.isInit = true
   const code = lastDisconnect?.error?.output?.statusCode || lastDisconnect?.error?.output?.payload?.statusCode
   if (code && code !== DisconnectReason.loggedOut && conn?.ws.readyState !== CONNECTING) {
     console.log(await global.reloadHandler(true).catch(console.error))
@@ -166,7 +166,7 @@ async function connectionUpdate(update) {
 process.on('uncaughtException', console.error)
 // let strQuot = /(["'])(?:(?=(\\?))\2.)*?\1/
 
-let isInit = false;
+let isInit = true;
 let handler = await import('./handler.js')
 global.reloadHandler = async function (restatConn) {
   try {
