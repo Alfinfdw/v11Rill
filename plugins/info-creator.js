@@ -5,22 +5,22 @@ let handler = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 	let _type = (args[0] || "").toLowerCase();
 
 	//------- NOMOR
-	let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;${author};;;\nFN:${author}\nORG:${author}\nTITLE:\nitem1.TEL;waid=62895360424437:+62 895 3604 24437\nitem1.X-ABLabel:${author}\nX-WA-BIZ-DESCRIPTION:\nX-WA-BIZ-NAME:${author}\nEND:VCARD`
+	let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;${author};;;\nFN:${author}\nORG:${author}\nTITLE:\nitem1.TEL;waid=447971533162:+44 7971 533162\nitem1.X-ABLabel:${author}\nX-WA-BIZ-DESCRIPTION:\nX-WA-BIZ-NAME:${author}\nEND:VCARD`
 
 
 	//------------ BIO
 	let ppown = await conn
 		.profilePictureUrl(nomorown + "@s.whatsapp.net", "image")
 	let teksbio = `${htki} *BIODATA* ${htka}
-• Nama : Ozaa
-• Nickname : Ozaa
+• Nama : DivanXd
+• Nickname : DivanXd
 • Gender : Laki
 • Tanggal Lahir : Kepo Luwh
 • Umur : Kepo Luwh
-• Hobby : Tumru
+• Hobby : Mencintaimu
 • Sifat : Nilai Aja Kalau Udah Kenal
 • Tinggal : Indonesia🇮🇩
-• Waifu : Lebih Suka Loli :v
+• Waifu : Nggak Suka Loli :v
 `;
 	let teks = "Pilih Di Bawah Kak (〃＾▽＾〃)";
 	const sections = [
